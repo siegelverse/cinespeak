@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function renderMovie(movie) {
-    const imgCont = document.querySelector(".container")
+    const imgCont = document.querySelector(".container-fluid")
     const imgCard = document.createElement("div")
     imgCard.className = "card"
     imgCard.style = "width: 18rem;"
@@ -32,6 +32,8 @@ function renderMovie(movie) {
         //       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         //       <a href="#" class="btn btn-primary">Go somewhere</a>
         // </div>
+
+
         const infoCard = document.createElement("div")
         infoCard.className = "card-body"
 

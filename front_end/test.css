@@ -1,0 +1,6 @@
+.card-body {
+    display: none
+}
+.card-image:hover + .card-body {
+    display: block
+}
